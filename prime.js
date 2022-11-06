@@ -1,10 +1,13 @@
-  let number = 13;
-   for(let i=number;i<=i;i++){
-     if(number%i==0)
+
+  let num = 13;
+  let count = 0;
+   for(let i=1;i<=num;i++){
+     if(num%i==0)
+
        count++;
    }
   
-     if(count==3){
+     if(count==2){
        console.log("No. is prime");
     } else {
         console.log("No. is not prime");
